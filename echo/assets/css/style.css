@@ -11370,7 +11370,7 @@ a.pe-none {
 }
 
 .echo-breadcrumb-area-2 {
-  background-image: url("../images/breadcrumb/breadcrumb.png");
+  background-image: url("../images/home-1/breadcrumb.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 65px 0;
@@ -27420,7 +27420,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
   border: 1px solid #FFFFFF;
 }
 .echo-video-area.inner {
-  background: url(../images/home-1/video-left/video-bg3.png);
+  background: url(../images/video-left/video-bg3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
