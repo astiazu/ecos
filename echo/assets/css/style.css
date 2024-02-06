@@ -10499,25 +10499,25 @@ Custom Row
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 /*=============================
@@ -19135,7 +19135,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 .home-one .echo-video-area .echo-full-video-content .echo-video-right-site-content .echo-video-right-site-content-text h5 a {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #fff), color-stop(50%, transparent));
   background-image: linear-gradient(to right, #fff 50%, transparent 50%);
-  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 .home-one .echo-video-area .echo-full-video-content .echo-video-right-site-content .echo-video-right-site-content-text h5 a:hover {
   background-position: 0% 100%;
@@ -24980,7 +24980,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-business-area.area2 .section-inner .echo-hero-baner .echo-hero-banner-main-img .tag span {
   background-image: linear-gradient(126deg, #9F68F5 14.85%, #BEE44F 86.39%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 20px;
   font-weight: 600;
