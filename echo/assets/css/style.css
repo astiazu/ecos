@@ -24589,7 +24589,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-newsletter-area.home-six .newsletter-inner .content-title {
   font-family: "DM Sans", sans-serif;
-  color: #FFFFFF;
+  color: #1D72FF;
   font-size: 50px;
   line-height: 60px;
   margin-bottom: 50px;
@@ -32400,6 +32400,7 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
   }
 
   .echo-feature-area .echo-feature-area-right-site-full-content .echo-feature-area-right-site-audio-title > h5 {
+    background-image: url("../../../ecos_files/fm92-1.jpeg");
     font-size: 25px;
   }
 
