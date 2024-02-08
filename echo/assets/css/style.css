@@ -19496,7 +19496,8 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-de-category-area .echo-de-category-title-btn a::after {
   content: "\f061";
-  font-family: "Font Awesome 6 Pro" !important;
+  /* font-family: "Font Awesome 6 Pro" !important; */
+  font-family: "font-awesome/6.0.0/" !important;
   margin-left: 10px;
 }
 .echo-de-category-area .echo-de-category-title-btn h4 {
@@ -34779,4 +34780,8 @@ img {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* .nav-item {
+  font-family: "Font Awesome 6" !important;
+}  */
 /*# sourceMappingURL=../maps/style.css.map */
