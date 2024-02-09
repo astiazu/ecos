@@ -10797,7 +10797,7 @@ a.pe-none {
 }
 .echo-get-in-tuch h4::after {
   content: "/";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   position: absolute;
   font-size: 16px;
   margin-left: 12px;
@@ -10900,7 +10900,7 @@ a.pe-none {
 }
 .home-2-read-more-btn a::after {
   content: "\f061";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   position: absolute;
   margin-left: 10px;
   transition: all ease 0.3s;
@@ -15925,7 +15925,7 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
   content: "\f107" !important;
   position: absolute !important;
   top: -2px;
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   right: 0;
   transition: all 0.4s;
   font-size: 15px;
@@ -17687,7 +17687,7 @@ html[data-theme=dark] .echo-header-area.header-ten .header-three .echo-site-main
 .mobile-menu nav ul li a.main::after {
   position: absolute;
   content: "\f078";
-  font-family: "Font Awesome 6 pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   font-size: 16px;
   right: 0;
   font-weight: 400;
@@ -18446,7 +18446,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 @media (max-width: 500px) {
   .echo-latest-news-area {
     padding-bottom: 30px;
-  }
+  } 
 }
 .echo-latest-news-area .echo-latest-news-content {
   position: relative;
@@ -18478,7 +18478,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-latest-news-area .echo-latest-news-content .echo-be-slider-btn .echo-latest-news-next-prev-btn .swiper-button-next::after {
   content: "\f061";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   font-size: 25px;
 }
 .echo-latest-news-area .echo-latest-news-content .echo-be-slider-btn .echo-latest-news-next-prev-btn .swiper-button-next:hover {
@@ -18517,7 +18517,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-latest-news-area .echo-latest-news-content .echo-be-slider-btn .echo-latest-news-next-prev-btn .swiper-button-prev::after {
   content: "\f060";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   font-size: 25px;
 }
 .echo-latest-news-area .echo-latest-news-content .echo-be-slider-btn .echo-latest-news-next-prev-btn .swiper-button-prev:hover {
@@ -19558,7 +19558,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-de-category-area .echo-de-category-content .echo-de-category-show-more-btn a::after {
   content: "\f061";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   margin-left: 10px;
 }
 
@@ -19959,7 +19959,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-feature-area .echo-feature-area-right-site-newsletter .echo-feature-area-right-site-news-subscribe form .echo-feature-area-right-site-input-box::before {
   content: "\f0e0";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   position: absolute;
   top: 24%;
   left: 12px;
@@ -20830,7 +20830,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
   font-size: 15px;
   color: #fff;
   content: "\f105";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
 }
 .echo-archive-area .echo-archive-area-content .echo-archive-area-full-content .echo-banner-slider-button .swiper-button-next:hover {
   background-color: #F16228;
@@ -20847,7 +20847,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
   font-size: 15px;
   color: #5E5E5E;
   content: "\f104";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
 }
 .echo-archive-area .echo-archive-area-content .echo-archive-area-full-content .echo-banner-slider-button .swiper-button-prev:hover {
   background-color: #F16228;
@@ -21014,7 +21014,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
   font-size: 20px;
   color: #fff;
   content: "\f105";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
 }
 .echo-hm2-video-area .echo-hm2-video-area-content .echo-hm2-video-area-full-content .echo-row .echo-banner-slider-button .swiper-button-next:hover {
   background-color: #7817F2;
@@ -21036,7 +21036,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
   font-size: 20px;
   color: #fff;
   content: "\f104";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
 }
 .echo-hm2-video-area .echo-hm2-video-area-content .echo-hm2-video-area-full-content .echo-row .echo-banner-slider-button .swiper-button-prev:hover {
   background-color: #7817F2;
@@ -21825,7 +21825,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
 }
 .echo-hero-section.inner .echo-right-ct-1 .echo-feature-area-right-site-newsletter .echo-feature-area-right-site-news-subscribe form .echo-feature-area-right-site-input-box::before {
   content: "\f0e0";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   position: absolute;
   top: 24%;
   left: 12px;
@@ -25920,7 +25920,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
   font-size: 15px;
   color: #ffffff;
   content: "\f105";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
 }
 .echo-banner .echo-banner-slider-button .swiper-button-next:hover {
   background-color: #53B7BD;
@@ -25937,7 +25937,7 @@ html[data-theme=dark] .echo-photography-area .hm8-btn-1:hover {
   font-size: 15px;
   color: #5E5E5E;
   content: "\f104";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
 }
 .echo-banner .echo-banner-slider-button .swiper-button-prev:hover {
   background-color: #53B7BD;
@@ -30566,7 +30566,7 @@ html[data-theme=dark] body.home-nine .echo-hero-baner .content .echo-hero-title 
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
 }
 .echo-contact-area .echo-contact-content .echo-contact-full-content .echo-contact-input-field .echo-main-contact-form form .echo-contact-input-flexing .echo-df-input.echo-contact-name::before {
   content: "\f007";
@@ -30592,7 +30592,7 @@ html[data-theme=dark] body.home-nine .echo-hero-baner .content .echo-hero-title 
 .echo-contact-area .echo-contact-content .echo-contact-full-content .echo-contact-input-field .echo-main-contact-form form .echo-contact-texting-fild::before {
   content: "\e212";
   position: absolute;
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   left: 12px;
   top: 8%;
 }
@@ -30652,7 +30652,7 @@ html[data-theme=dark] body.home-nine .echo-hero-baner .content .echo-hero-title 
   content: "\f095";
 }
 .echo-contact-area .echo-contact-content .echo-contact-full-content .echo-info .echo-address::before {
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   position: absolute;
   left: -65px;
   top: 50%;
@@ -30920,7 +30920,7 @@ html[data-theme=dark] body.home-nine .echo-hero-baner .content .echo-hero-title 
 }
 .echo-footer-area .echo-row .echo-footer-content-4 .echo-subscribe-box-button form .echo-footer-area-subscribe-button a::after {
   content: "\f061";
-  font-family: "Font Awesome 6 Pro" !important;
+font-family: "Font Awesome 6 Pro" !important;
   margin-left: 10px;
 }
 .echo-footer-area .echo-footer-copyright-area {
