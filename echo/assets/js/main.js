@@ -413,17 +413,3 @@ window.onclick = function(event) {
   imJs.m();
 })(jQuery, window)
 
-// Verificar si ya hay un contador almacenado en el almacenamiento local
-if (localStorage.getItem('visits')) {
-  // Si existe, obtener el contador y mostrarlo en la página
-  var visits = parseInt(localStorage.getItem('visits'));
-  document.getElementById('visits').textContent = visits;
-} else {
-  // Si no existe, inicializar el contador en 1 y mostrarlo en la página
-  var visits = 1;
-  document.getElementById('visits').textContent = visits;
-}
-
-// Incrementar el contador cada vez que se carga la página y guardar el nuevo valor en el almacenamiento local
-visits++;
-localStorage.setItem('visits', visits);

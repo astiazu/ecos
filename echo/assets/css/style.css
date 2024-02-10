@@ -31289,7 +31289,7 @@ html[data-theme=dark] body.home-two .echo-footer-area.footer-2 .echo-get-in-tuch
 }
 
 #anywhere-home {
-  cursor: url(../images/close.png), auto;
+  cursor: url(../../../ecos_files/close.png), auto;
   background: #0e1013;
   position: fixed;
   width: 100%;
