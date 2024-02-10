@@ -70,8 +70,8 @@ h1#logo {
 h1#logo a { 
     display:inline-block; 
     background:url(../images/bg-logo.png) no-repeat; 
-    background-size:279px 99px; 
-    width:300px; 
+    background-size:300px 99px; 
+    width:320px; 
     height:100px; 
     text-indent:-9999px; 
 }
