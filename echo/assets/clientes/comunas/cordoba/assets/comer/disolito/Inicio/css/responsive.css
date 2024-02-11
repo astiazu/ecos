@@ -101,7 +101,7 @@ h1#logo a { background:url(../images/disolito.png) no-repeat; background-size:22
 @media only screen and (max-width: 767px) {
 .container { padding:0px; width:320px; position:relative; }
 .col2-3, .col1-1 { width:300px; height:auto; }
-#map {width:300px; height:191px;}
+#map {width:300px; height:191px;} 
 
 #wrapper {width:320px; }
 
