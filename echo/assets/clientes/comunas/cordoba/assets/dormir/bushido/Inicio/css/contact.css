@@ -3,26 +3,9 @@
 /* Form style */
 
 #contact label { display: none; float: none; height:0px; }
-input, textarea, select { 
-    width:220px; 
-    padding:21px 0px; 
-    font: 13px "PT Mono", "Courier New", Courier, monospace; color:#555; border:0;
-    border-bottom:1px dotted #d3d3d3;
-    -webkit-transition: all 0.2s ease 0s; 
-    -moz-transition: all 0.2s ease 0s; 
-    -o-transition: all 0.2s ease 0s; 
-    transition: all 0.2s ease 0s; 
-    float:none; 
-    display:block; 
-    margin:0px 40px; 
-    appearance: none; 
-    background:none
-}
-
+input, textarea, select { width:220px; padding:21px 0px; font: 13px "PT Mono", "Courier New", Courier, monospace; color:#555; border:0; border-bottom:1px dotted #d3d3d3; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block; margin:0px 40px; -webkit-appearance: none; background:none}
 #contact textarea { margin-bottom:0px; margin-right:0px !important; }
-
-/*input:focus, textarea:focus, select:focus {  }*/
-
+input:focus, textarea:focus, select:focus {  }
 input.submit { display:inline-block; position:absolute; width:auto; bottom:40px; right:0px; border:0px; padding:0px; color:#8d8d8d; font-size:13px; background:none; cursor:pointer}
 #contact input.submit:hover { color:#555; }
 
