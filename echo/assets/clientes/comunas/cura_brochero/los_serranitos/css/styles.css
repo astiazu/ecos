@@ -6,7 +6,7 @@
 .clear { clear: both; }
 .clearfix:after { content: "."; display:block; height:0; clear:both; visibility:hidden; }/* ----- clear fix for floats ----- */
 .clearfix { display:inline-block; }
-* html .clearfix { height:1%; }/* hides clearfix from IE-mac */
+/* html .clearfix { height:1%; }/* hides clearfix from IE-mac */
 .clearfix { display:block; }/* end hide from IE-mac */
 .alignleft { float:left; }
 .alignright { float:right; }
@@ -72,6 +72,8 @@ h2, .hentry h1 { font-size:18px; font-weight:600; color:#2b2b2b; margin:0px 40px
 h3 {font-size:15px; font-weight:600; padding:14px 40px 0 40px; margin-bottom:-6px; }
 h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercase; padding:15px 40px 1px 40px; margin-bottom:-6px; }
 h2 a {color:#2b2b2b; }
+h5 {color:#2b2b2b; font-size: 13px; text-align: center;}
+h6 {color:rgb(4, 117, 79); font-size: 30px; text-align: center;}
 /* End Headings
 --------------------------------------------------------------------------------------------------------*/
 
