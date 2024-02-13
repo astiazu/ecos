@@ -19,8 +19,7 @@
 
 /* =Preloader
 --------------------------------------------------------------------------------------------------------*/
-#preloader { position:absolute; top:0; left:0; right:0; bottom:0; 
-    background:url(../images/bg-overlay3.png) repeat left top #999; z-index:9999; }
+#preloader { position:absolute; top:0; left:0; right:0; bottom:0; background:url(../images/bg-overlay3.png) repeat left top #999; z-index:9999; }
 #status { width:300px; height:402px; position:absolute; left:50%; top:50%; margin:-201px 0 0 -150px; color:#fff }
 /* End Preloader
 --------------------------------------------------------------------------------------------------------*/
@@ -32,13 +31,10 @@ html {overflow: -moz-scrollbars-vertical; overflow-y: scroll; -webkit-font-smoot
 html, body, #wrap {height: 100%;}
 body > #wrap {height: auto; min-height: 100%;}
 #content {padding-bottom: 162px;}
-body { font: 13px "PT Mono", "Courier New", Courier, monospace; color:#555; 
-    background:url(../images/bg-overlay3.png) repeat left top #999;  }
+body { font: 13px "PT Mono", "Courier New", Courier, monospace; color:#555; background:url(../images/bg-overlay3.png) repeat left top #999;  }
 strong { font-weight:bold; }
-a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; 
-    transition: all 0.2s ease 0s; }
-*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
-    padding: 0; margin: 0; }
+a, a > * {-webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; }
 p { line-height:1.5; padding:14px 40px 0 40px; }
 p.small {font-size:12px;}
 blockquote { line-height:1.5; padding:24px 40px 10px 40px;  }
@@ -49,8 +45,7 @@ a:hover { text-decoration:none; color:#2B2B2B; }
 span.arrow {font:13px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
 .no-h2 {padding-top:35px; }
 em {font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-style:normal; font-weight:600 }
-code {font:13px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-style:normal; line-height:1.5; 
-    display:block; }
+code {font:13px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-style:normal; line-height:1.5; display:block; }
 pre { padding:13px 40px 0 40px; }
 /* End Typography
 --------------------------------------------------------------------------------------------------------*/
@@ -59,14 +54,23 @@ pre { padding:13px 40px 0 40px; }
 /* =Headings
 --------------------------------------------------------------------------------------------------------*/
 h1#logo { position:relative; margin:0 auto; width:300px; z-index:401; margin-bottom:17px; text-align:center }
-h1#logo a { display:inline-block; background:url(../images/bg-logo.png) no-repeat; background-size:279px 39px; 
-    width:279px; height:39px; text-indent:-9999px; }
+h1#logo a { 
+    display:inline-block; 
+    /* background:url(../images/bg-logo.png) no-repeat; 
+    background-size:279px 39px; 
+    width:279px; 
+    height:39px;  */
+    background:url(../images/disolito.png) no-repeat; 
+    background-size:221px 118px; 
+    width:221px; 
+    height:118px;     
+    
+    text-indent:-9999px; 
+}
 .hentry h1, h2, h3, h4 { line-height:1.5; font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
-h2, .hentry h1 { font-size:18px; font-weight:600; color:#2b2b2b; margin:0px 40px 6px 40px; padding-bottom:19px; 
-    padding-top:32px; text-transform:uppercase; letter-spacing:3px; border-bottom:1px dotted #2b2b2b; display:block }
+h2, .hentry h1 { font-size:18px; font-weight:600; color:#2b2b2b; margin:0px 40px 6px 40px; padding-bottom:19px; padding-top:32px; text-transform:uppercase; letter-spacing:3px; border-bottom:1px dotted #2b2b2b; display:block }
 h3 {font-size:15px; font-weight:600; padding:14px 40px 0 40px; margin-bottom:-6px; }
-h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercase; padding:15px 40px 1px 40px;
-    margin-bottom:-6px; }
+h4 {font-size:13px; font-weight:600; letter-spacing:1px; text-transform:uppercase; padding:15px 40px 1px 40px; margin-bottom:-6px; }
 h2 a {color:#2b2b2b; }
 /* End Headings
 --------------------------------------------------------------------------------------------------------*/
@@ -88,8 +92,7 @@ h2 a {color:#2b2b2b; }
 .break { height:20px; position:relative; display:block }
 .images { display:block; position:relative; }
 .overflow, .element {overflow:hidden; }
-.borderline {border-top:1px dotted #d3d3d3; height:1px; position:relative; display:block; margin:19px 40px 5px 40px;
-    width:auto; }
+.borderline {border-top:1px dotted #d3d3d3; height:1px; position:relative; display:block; margin:19px 40px 5px 40px; width:auto; }
 
 .white {background:#f3f3ee; }
 .white1 {background:url(../images/bg-white1.png) no-repeat right bottom #f3f3ee; }
@@ -106,44 +109,53 @@ h2 a {color:#2b2b2b; }
 /* vertical centering */
 .parent {display: table}
 .child {display: table-cell; vertical-align: middle; padding:0 50px; }
-.child span { font-size:24px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; 
-    font-weight:600; color:#fff; text-transform:uppercase; letter-spacing:4px; line-height:33px;}
+.child span { font-size:24px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:600; color:#fff; text-transform:uppercase; letter-spacing:4px; line-height:33px;}
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/
 
 
 /* =Googlemaps
 --------------------------------------------------------------------------------------------------------*/
-#map {
-    width:620px; 
-    height:402px; 
-    margin:0; 
-    border:0;
-    background-image: url('../images/pic4.jpg');
-    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
-    background-position: center; /* Centra la imagen */
-    color: #fff; /* Color del texto si es necesario ajustar para la legibilidad */
-}
+#map {width:620px; height:402px; margin:0; border:0}
 #map:before, #map:after {background: none; content: ''; left: 0;	position: absolute;	top: 0;	width: 100%; }
 #map:after {bottom: 0; top: auto; }
 /* End Googlemaps
 --------------------------------------------------------------------------------------------------------*/
-
+ 
 
 /* =Image Hover
 --------------------------------------------------------------------------------------------------------*/
 .images img {width:100%; display: block; max-width: 100% !important; z-index:9 }
 img{box-shadow: #000 0 0 0}
-.images .overlay { background:rgba(0, 0, 0, 0.5); z-index:10; display:block; position:absolute; height:100%;
-    width:100%; }
-.images .dots { z-index:11; display:block; position:absolute; width:261px; height:151px; margin:20px 0 0 20px;
-    border:1px dotted #fff; filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; -moz-opacity: 0.5;
-    -khtml-opacity: 0.5; opacity: 0.5; }
+.images .overlay { background:rgba(0, 0, 0, 0.5); z-index:10; display:block; position:absolute; height:100%; width:100%; }
+.images .dots { 
+    z-index:11; 
+    display:block; 
+    position:absolute; 
+    width:261px; 
+    height:151px; 
+    margin:20px 0 0 20px; 
+    border:1px dotted #fff; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+    -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5; 
+}
 
-.icons { display:inline-block; height:48px; width:48px; z-index:100;  pointer-events: none;
-    -webkit-transition: all 0s ease 0s; -moz-transition: all 0s ease 0s; -o-transition: all 0s ease 0s;
-    transition: all 0s ease 0s; filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
-    -moz-opacity: 0; -khtml-opacity: 0; opacity: 0;}
+.icons { 
+    display:inline-block; 
+    height:48px; 
+    width:48px; 
+    z-index:100;  
+    pointer-events: none; 
+    -webkit-transition: all 0s ease 0s; 
+    -moz-transition: all 0s ease 0s; 
+    -o-transition: all 0s ease 0s; 
+    transition: all 0s ease 0s; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
+    -moz-opacity: 0; 
+    -khtml-opacity: 0; 
+    opacity: 0;
+}
+
 .linkedin {background:url(../images/bg-linkedin.png) center no-repeat; background-size:50px 50px; }
 .dribbble {background:url(../images/bg-dribbble.png) center no-repeat; background-size:50px 51px; }
 .googleplus {background:url(../images/bg-googleplus.png) center no-repeat; background-size:50px 50px; }
@@ -166,8 +178,7 @@ img{box-shadow: #000 0 0 0}
 
 /* =Lists
 --------------------------------------------------------------------------------------------------------*/
-ul.unordered-list, .hentry ul { list-style: disc; line-height:1.5; padding:14px 40px 0 40px; margin-left:18px;
-    text-align:left !important; }
+ul.unordered-list, .hentry ul { list-style: disc; line-height:1.5; padding:14px 40px 0 40px; margin-left:18px; text-align:left !important; }
 ol { list-style: decimal; line-height:1.5; padding:14px 40px 0 40px; margin-left:25px; text-align:left !important; }
 /* =End Lists
 --------------------------------------------------------------------------------------------------------*/
@@ -175,8 +186,7 @@ ol { list-style: decimal; line-height:1.5; padding:14px 40px 0 40px; margin-left
 
 /* =Footer
 --------------------------------------------------------------------------------------------------------*/
-footer { height:auto; background:rgba(0, 0, 0, 0.5); position:relative; color:#cfcfcf;/* margin-top:45px; */
-    padding:45px 0; height:162px;  margin-top: -162px;}
+footer { height:auto; background:rgba(0, 0, 0, 0.5); position:relative; color:#cfcfcf;/* margin-top:45px; */padding:45px 0; height:162px;  margin-top: -162px;}
 /* End Footer
 --------------------------------------------------------------------------------------------------------*/
 
@@ -194,18 +204,44 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:52px; width:52px;
 /* =Isotope
 --------------------------------------------------------------------------------------------------------*/
 #options { width:auto; height:auto; z-index:300; text-align:center;}
-#options ul { margin: 0; list-style: none; display:inline-block; transform: translateZ(0); }
+#options ul { margin: 0; list-style: none; display:inline-block; -webkit-transform: translateZ(0); }
 #options li { float: left; position:relative  }
-#options li a { color:#cfcfcf; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size:13px; 
-    font-weight:600; text-decoration:none; text-transform:uppercase; display:inline-block; padding:3px 15px 13px 15px;
-    margin:0px; position:relative; }
+#options li a { 
+    color:#cfcfcf; 
+    font-family: "Open Sans", Arial, Helvetica, sans-serif; 
+    font-size:13px; 
+    font-weight:600; 
+    text-decoration:none; 
+    text-transform:uppercase; 
+    display:inline-block; 
+    padding:3px 15px 13px 15px;  
+    margin:0px; 
+    position:relative; 
+}
 #options li a:hover, #options li a.selected { color:#fff;}
 
-#options ul li ul {position:absolute; margin-top:0px; margin-left:-75px; left:50%; padding:10px 15px; width:150px; 
-    background:#f3f3ee; display:none }
-#options ul li ul:before {content:''; height:0; width:0; border-width:8px 8px 8px 8px; border-style:solid; 
+#options ul li ul {
+    position:absolute; 
+    margin-top:0px; 
+    margin-left:-75px; 
+    left:50%; 
+    padding:10px 15px; 
+    width:150px; 
+    background:#f3f3ee; 
+    display:none 
+}
+#options ul li ul:before {
+    content:''; 
+    height:0; 
+    width:0; 
+    border-width:8px 8px 8px 8px; 
+    border-style:solid; 
     border-color:rgba(251,251,251,0) rgba(255,255,255,0) rgba(243,243,238,1) rgba(255,255,255,0); 
-    position:absolute; top:-16px; margin-left:-8px; border-top-style:inset; }
+    position:absolute; 
+    top:-16px; 
+    margin-left:-8px; 
+    border-top-style:inset; 
+}
 #options ul li ul li {float:none }
 #options ul li ul li a {padding:7px 0; border-bottom:1px dotted #2b2b2b; font-size:11px; display:block }
 #options ul li ul li a.last {border:0 }
@@ -220,7 +256,17 @@ ul.social a {text-indent:-9000px; text-decoration:none; height:52px; width:52px;
 --------------------------------------------------------------------------------------------------------*/
 #backtotop { height:auto; position:fixed; right:30px; bottom:40px; display:none; z-index:30; }
 #backtotop ul { padding:15px 0px; }
-#backtotop ul li a { background:url(../images/bg-up.png) center top no-repeat; background-size:48px 48px; display:block; width:48px; height:48px; float:right; right:10px; text-indent:-9000px; }
+#backtotop ul li a { 
+    background:url(../images/bg-up.png) center top no-repeat; 
+    background-size:48px 48px; 
+    display:block; 
+    width:48px; 
+    height:48px; 
+    float:right; 
+    right:10px; 
+    text-indent:-9000px; 
+}
+
 #backtotop ul li a:hover { height:58px; }
 /* End Backtotop
 --------------------------------------------------------------------------------------------------------*/
