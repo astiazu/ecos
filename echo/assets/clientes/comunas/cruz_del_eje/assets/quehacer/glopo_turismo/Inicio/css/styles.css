@@ -61,10 +61,9 @@ h1#logo a {
     width:279px; 
     height:39px;  */
     background:url(../images/bg-logo.png) no-repeat; 
-    background-size:221px 118px; 
-    width:221px; 
-    height:118px;     
-    
+    background-size:299px 150px; 
+    width:298px; 
+    height:149px;     
     text-indent:-9999px; 
 }
 .hentry h1, h2, h3, h4 { line-height:1.5; font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; }
@@ -136,7 +135,7 @@ img{box-shadow: #000 0 0 0}
     height:151px; 
     margin:20px 0 0 20px; 
     border:1px dotted #fff; 
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
     -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5; 
 }
 
@@ -150,7 +149,7 @@ img{box-shadow: #000 0 0 0}
     -moz-transition: all 0s ease 0s; 
     -o-transition: all 0s ease 0s; 
     transition: all 0s ease 0s; 
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; 
     -moz-opacity: 0; 
     -khtml-opacity: 0; 
     opacity: 0;
