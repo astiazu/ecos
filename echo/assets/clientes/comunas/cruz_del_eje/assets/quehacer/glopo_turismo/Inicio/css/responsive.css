@@ -5,7 +5,7 @@
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-h1#logo a { background:url(../images/disolito.png) no-repeat; background-size:221px 118px; } 
+h1#logo a { background:url(../images/glopo_logo.jpg) no-repeat; background-size:300px 191px; } 
 
 .linkedin {background:url(../images/bg-linkedin@2x.png) center no-repeat; background-size:50px 50px; }
 .dribbble {background:url(../images/bg-dribbble@2x.png) center no-repeat; background-size:50px 51px; }
